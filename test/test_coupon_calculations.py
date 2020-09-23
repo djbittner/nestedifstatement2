@@ -36,7 +36,5 @@ class MyTestCase(unittest.TestCase):
         self.assertAlmostEqual(53.42, coupon.calculate_price(58.90, 10, 20), 2)
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
